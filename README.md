@@ -36,35 +36,31 @@
 
 To get started with the project, clone the repository and install the dependencies:
 
-        ```bash
+        
       git clone https://github.com/Konstantilieris/Tarifas.git
       cd Tarifas
       npm install
 ## Environment Variables
   Make sure to set up the necessary environment variables for Firebase and Stripe. Create a .env file in the root directory and add the following:
    
-    makefile
-          Copy code
+   
            FIREBASE_API_KEY=your_firebase_api_key
            STRIPE_PUBLIC_KEY=your_stripe_public_key
 ## Usage
   After setting up the environment variables, you can start the development server:
 
     
-        Copy code
+       
         npm start
       This will launch the Expo development environment. You can scan the QR code with your Expo Go app to view the project on your mobile device.
 
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to update tests as appropriate.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 Enjoy using Tarifas! If you have any questions or suggestions, feel free to reach out.
 
-markdown
-Copy code
 
 ### How to Use This Template
 
@@ -72,4 +68,4 @@ Copy code
 2. **Customize**: Adjust any sections as needed, particularly the installation and environment variables sections if your setup requires different steps.
 3. **Add Screenshots (Optional)**: You can add screenshots of the app under the **Features** section to visually showcase its functionalities. Use the following syntax:
    ```markdown
-   ![Alt Text](path/to/screenshot.png)
+

@@ -57,10 +57,18 @@ To get started with the project, clone the repository and install the dependenci
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to update tests as appropriate.
 
+## Screenshots
 
+Here are some screenshots of the Tarifas app in action:
+
+<p align="center">
+  <img src="assets/images/tarifas2.jpg" alt="Home Screen" width="200" "/>
+  <img src="assets/images/tarifas1.jpg" alt="Ride Request" width="200" />
+  <img src="assets/images/tarifas3.jpg" alt="Destination" width="200"  />
+</p>
 
 Enjoy using Tarifas! If you have any questions or suggestions, feel free to reach out.
-| ![Home Screen](assets/images/tarifas2.jpg) | ![Ride Request](assets/screenshots/tarifas1.png) | ![Choose Destination](assets/images/tarifas3.png) |
+
 
 
 

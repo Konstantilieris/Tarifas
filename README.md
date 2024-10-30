@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,7 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# Tarifas
+Tarifas is a cutting-edge, Uber-like mobile application that redefines the ride-hailing experience through modern technology and user-friendly design. Built with React Native and Expo, it delivers a seamless cross-platform experience, enabling users to book rides effortlessly from their smartphones.
+>>>>>>> 68962dfde064fc1cb3a4f265666632ca05b9e306

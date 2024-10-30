@@ -1,55 +1,75 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Tarifas
 
-## Get started
+**Tarifas** is an Uber-like mobile application designed to provide a seamless ride-hailing experience. Built with React Native, Expo, and a combination of modern technologies, Tarifas aims to connect drivers and riders efficiently while offering real-time chat and payment processing capabilities.
 
-1. Install dependencies
+## Table of Contents
 
-   ```bash
-   npm install
-   ```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+- **Real-time Chat**: Integrated chat functionality powered by Firebase, allowing riders and drivers to communicate effortlessly.
+- **Google Maps Integration**: Use Google Maps for location tracking, route optimization, and directions.
+- **Payment Processing**: Secure payments using Stripe for a smooth transaction experience.
+- **User Authentication**: Sign in and manage user profiles with Clerk.
+- **Intuitive UI**: Designed using Native Wind for a responsive and user-friendly interface.
+- **Ride Management**: Manage rides, view ride history, and rate drivers.
 
-In the output, you'll find options to open the app in a
+## Technologies Used
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: A framework for building native applications using React.
+- **Expo**: A framework and platform for universal React applications, making development easier.
+- **Native Wind**: A utility-first CSS framework for styling React Native applications.
+- **Google Maps API**: Used for maps and location services.
+- **Google Directions API**: Provides directions between locations.
+- **Stripe**: For secure payment processing.
+- **Gifted Chat**: A chat UI component for React Native applications, integrated with Firebase.
+- **Firebase**: For real-time database capabilities and authentication.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
-
-When you're ready, run:
+To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Konstantilieris/Tarifas.git
+cd Tarifas
+npm install
+Environment Variables
+Make sure to set up the necessary environment variables for Firebase and Stripe. Create a .env file in the root directory and add the following:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+makefile
+Copy code
+FIREBASE_API_KEY=your_firebase_api_key
+STRIPE_PUBLIC_KEY=your_stripe_public_key
+Usage
+After setting up the environment variables, you can start the development server:
 
-## Learn more
+bash
+Copy code
+npm start
+This will launch the Expo development environment. You can scan the QR code with your Expo Go app to view the project on your mobile device.
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to update tests as appropriate.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Join the community
+Enjoy using Tarifas! If you have any questions or suggestions, feel free to reach out.
 
-Join our community of developers creating universal apps.
+markdown
+Copy code
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# Tarifas
-Tarifas is a cutting-edge, Uber-like mobile application that redefines the ride-hailing experience through modern technology and user-friendly design. Built with React Native and Expo, it delivers a seamless cross-platform experience, enabling users to book rides effortlessly from their smartphones.
->>>>>>> 68962dfde064fc1cb3a4f265666632ca05b9e306
+### How to Use This Template
+
+1. **Copy the Markdown**: Copy the content above into a file named `README.md` in your project root.
+2. **Customize**: Adjust any sections as needed, particularly the installation and environment variables sections if your setup requires different steps.
+3. **Add Screenshots (Optional)**: You can add screenshots of the app under the **Features** section to visually showcase its functionalities. Use the following syntax:
+   ```markdown
+   ![Alt Text](path/to/screenshot.png)

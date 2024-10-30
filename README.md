@@ -60,12 +60,10 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 
 Enjoy using Tarifas! If you have any questions or suggestions, feel free to reach out.
+| ![Home Screen](assets/images/tarifas2.jpg) | ![Ride Request](assets/screenshots/tarifas1.png) | ![Choose Destination](assets/images/tarifas3.png) |
 
 
-### How to Use This Template
 
-1. **Copy the Markdown**: Copy the content above into a file named `README.md` in your project root.
-2. **Customize**: Adjust any sections as needed, particularly the installation and environment variables sections if your setup requires different steps.
-3. **Add Screenshots (Optional)**: You can add screenshots of the app under the **Features** section to visually showcase its functionalities. Use the following syntax:
-   ```markdown
+
+
 
